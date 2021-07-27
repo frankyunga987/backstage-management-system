@@ -11,14 +11,14 @@ import './App.less'
 export default class App extends Component {
     render() {
         return (
-            <div>
-                <BrowserRouter>
-                    <Switch>
-                        <Route path='/login' component={Login}></Route>
-                        <Route path='/' component={Admin}></Route>
-                    </Switch>
-                </BrowserRouter>
-            </div>
+
+            <BrowserRouter>
+                <Switch>
+                    <Route path='/login' component={Login}></Route>
+                    <Route path='/' component={Admin}></Route>
+                </Switch>
+            </BrowserRouter>
+
         )
     }
 }
