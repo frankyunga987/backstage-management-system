@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Form, Input, Button } from 'antd';
+import { Form, Input, Button, message } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import { reqLogin } from '../../api'
 
@@ -16,7 +16,16 @@ export default class Login extends Component {
             // console.log('Received values of form: ', values);
             const { username, password } = values
             const response = await reqLogin(username, password)
-            console.log('請求成功', response)
+            // console.log('請求成功', response)
+            const result=response.data
+            if(result.status===0){
+
+                message.success('登入成功')
+                this.props.history.replace('/')
+
+            }else{
+                message.error(result.msg)
+            }
             
 
             // reqLogin(username, password).then(
