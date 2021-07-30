@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { Form, Input, Button, message } from 'antd';
+import { Form, Input, Button,} from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
-import { reqLogin } from '../../api'
+// import { reqLogin } from '../../api'
 
 
-import './login.less'
+import './Login.less'
 import logo from './images/logo192.png'
 
 // 登入的路由組件
@@ -14,6 +14,11 @@ export default class Login extends Component {
 
         const onFinish = async (values) => {
             // console.log('Received values of form: ', values);
+            this.props.history.replace('/')
+
+            // 以下為AJAX請求登入
+            // console.log('Received values of form: ', values);
+            /* 
             const { username, password } = values
             const response = await reqLogin(username, password)
             // console.log('請求成功', response)
@@ -26,8 +31,9 @@ export default class Login extends Component {
             }else{
                 message.error(result.msg)
             }
+            */
             
-
+            // 以下為AJAX請求登入(未優化)
             // reqLogin(username, password).then(
             //     response=>{
             //         console.log('請求成功', response.data)
