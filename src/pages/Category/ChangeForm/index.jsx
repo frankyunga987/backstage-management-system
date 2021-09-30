@@ -28,7 +28,7 @@ export default class ChangeForm extends Component {
                     rules={[
                         {
                             required: true,
-                            message: '請輸入要修改的品類名稱',
+                            message: '必須輸入要修改的品類名稱',
                         }
                     ]}
                 >

@@ -13,7 +13,7 @@ export default class Product extends Component {
         return (
             <Switch>
                 <Route path='/product' component={ProductHome} exact></Route>
-                <Route path='/product/addproduct' component={AddUpdateProduct}></Route>
+                <Route path='/product/addupdate' component={AddUpdateProduct}></Route>
                 <Route path='/product/detail' component={PoductDetail}></Route>
                 <Redirect to='/product'></Redirect>
             </Switch>

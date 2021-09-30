@@ -94,7 +94,7 @@ export default class Category extends Component {
 
       this.setState({ isModalVisible: 0, dataSource: newData, });
       this.getCategorys()
-      // form.resetFields();
+      form.resetFields();
       // console.log(values)
       // console.log(list)
       // console.log(this.state.dataSource)
@@ -116,6 +116,7 @@ export default class Category extends Component {
         return d
       })
       this.setState({ isModalVisible: 0, categorys: NewCategorys });
+      form.resetFields();
       console.log(values)
     }).catch(errorInfo => {
       console.log(errorInfo)

@@ -34,7 +34,7 @@ export default class AddForm extends Component {
                     rules={[
                         {
                             required: true,
-                            message: '請輸入要添加的品類名稱',
+                            message: '必須輸入要添加的品類名稱',
                         }
                     ]}
                 >

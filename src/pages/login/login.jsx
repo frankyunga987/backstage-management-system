@@ -14,7 +14,7 @@ export default class Login extends Component {
 
         const onFinish = async (values) => {
             // console.log('Received values of form: ', values);
-            this.props.history.replace('/')
+            this.props.history.replace('/home')
 
             // 以下為AJAX請求登入
             // console.log('Received values of form: ', values);
@@ -50,6 +50,7 @@ export default class Login extends Component {
                 </header>
                 <div className="login_content">
                     <h2>用戶登入</h2>
+                    <h3 style={{textAlign: 'center'}}>隨意輸入4位數帳號和6位數密碼模擬登入</h3>
                     <div>
                         <Form
                             name="normal_login"

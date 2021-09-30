@@ -57,16 +57,17 @@ const menuList = [
 
             },
             {
-                title: '圓餅圖',
-                key: '/charts/pie',
-                icon: <PieChartOutlined />
-            },
-            {
                 title: '折線圖',
                 key: '/charts/line',
                 icon: <LineChartOutlined />
 
             },
+            {
+                title: '圓餅圖',
+                key: '/charts/pie',
+                icon: <PieChartOutlined />
+            },
+            
         ]
     },
 ]

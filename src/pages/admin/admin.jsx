@@ -21,7 +21,7 @@ const { Footer, Sider, Content } = Layout;
 export default class Admin extends Component {
     render() {
         return (
-            <Layout style={{ height: '100%' }}>
+            <Layout style={{ minHeight: '100%' }}>
                 <Sider><LeftNav /></Sider>
                 <Layout>
                     <Header>Header</Header>
@@ -35,7 +35,7 @@ export default class Admin extends Component {
                         <Route path='/charts/bar' component={Bar}></Route>
                         <Route path='/charts/line' component={Line}></Route>
                         <Route path='/charts/pie' component={Pie}></Route>
-                        <Redirect to='/home'></Redirect>
+                        <Redirect to='/login'></Redirect>
                         </Switch>
                     </Content>
                     <Footer style={{ textAlign: 'center', color: 'gray' }}>推薦使用Google瀏覽器操作</Footer>

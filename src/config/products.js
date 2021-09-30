@@ -17,7 +17,7 @@ export const dataSource = [
         "price": 3800,
         "pCategoryId": "1",
         "categoryId": "1",
-        "detail": "<span style=\'color: rgb(228,57,60) ;backgroundcolor:rgb(2255,255,255);font-size:16px;\'>內耳罩直徑：54 公釐 x 65公釐，連線類型：類比式 3.5 mm，耳機線長度：1.3 公尺 / 4.27 英呎，約略重量：322 公克 / 0.71 磅，橢圓形耳墊：為注入冷卻凝膠的全耳覆蓋式設計，適合長時間舒適配戴<span>",
+        "detail": "<span style='color: rgb(228,57,60) ;backgroundcolor:rgb(2255,255,255);font-size:16px;'>內耳罩直徑：54 公釐 x 65公釐，連線類型：類比式 3.5 mm，耳機線長度：1.3 公尺 / 4.27 英呎，約略重量：322 公克 / 0.71 磅，橢圓形耳墊：為注入冷卻凝膠的全耳覆蓋式設計，適合長時間舒適配戴<span>",
         "_v": 0,
     },
     {
@@ -32,7 +32,7 @@ export const dataSource = [
         "price": 4000,
         "pCategoryId": "1",
         "categoryId": "2",
-        "detail": "<span style=\'color:rgb(228,57,60);backgroundcolor:rgb(2255,255,255);font-size:16px;\'>內耳罩直徑：54 公釐 x 65公釐，連線類型：類比式 3.5 mm，耳機線長度：1.3 公尺 / 4.27 英呎，約略重量：322 公克 / 0.71 磅，橢圓形耳墊：為注入冷卻凝膠的全耳覆蓋式設計，適合長時間舒適配戴<span>",
+        "detail": "<span style='color:rgb(228,57,60);backgroundcolor:rgb(2255,255,255);font-size:16px;'>內耳罩直徑：54 公釐 x 65公釐，連線類型：類比式 3.5 mm，耳機線長度：1.3 公尺 / 4.27 英呎，約略重量：322 公克 / 0.71 磅，橢圓形耳墊：為注入冷卻凝膠的全耳覆蓋式設計，適合長時間舒適配戴<span>",
         "_v": 0,
     },
     {
@@ -47,7 +47,7 @@ export const dataSource = [
         "price": 3400,
         "pCategoryId": "1",
         "categoryId": "3",
-        "detail": "<span style=\'color:rgb(228,57,60);backgroundcolor:rgb(2255,255,255);font-size:16px;\'>內耳罩直徑：54 公釐 x 65公釐，連線類型：類比式 3.5 mm，耳機線長度：1.3 公尺 / 4.27 英呎，約略重量：322 公克 / 0.71 磅，橢圓形耳墊：為注入冷卻凝膠的全耳覆蓋式設計，適合長時間舒適配戴<span>",
+        "detail": "<span style='color:rgb(228,57,60);backgroundcolor:rgb(2255,255,255);font-size:16px;'>內耳罩直徑：54 公釐 x 65公釐，連線類型：類比式 3.5 mm，耳機線長度：1.3 公尺 / 4.27 英呎，約略重量：322 公克 / 0.71 磅，橢圓形耳墊：為注入冷卻凝膠的全耳覆蓋式設計，適合長時間舒適配戴<span>",
         "_v": 0,
     },
     {
@@ -62,7 +62,7 @@ export const dataSource = [
         "price": 3100,
         "pCategoryId": "1",
         "categoryId": "4",
-        "detail": "<span style=\'color:rgb(228,57,60);backgroundcolor:rgb(2255,255,255);font-size:16px;\'>內耳罩直徑：54 公釐 x 65公釐，連線類型：類比式 3.5 mm，耳機線長度：1.3 公尺 / 4.27 英呎，約略重量：322 公克 / 0.71 磅，橢圓形耳墊：為注入冷卻凝膠的全耳覆蓋式設計，適合長時間舒適配戴<span>",
+        "detail": "<span style='color:rgb(228,57,60);backgroundcolor:rgb(2255,255,255);font-size:16px;'>內耳罩直徑：54 公釐 x 65公釐，連線類型：類比式 3.5 mm，耳機線長度：1.3 公尺 / 4.27 英呎，約略重量：322 公克 / 0.71 磅，橢圓形耳墊：為注入冷卻凝膠的全耳覆蓋式設計，適合長時間舒適配戴<span>",
         "_v": 0,
     },
     {
@@ -77,7 +77,7 @@ export const dataSource = [
         "price": 4300,
         "pCategoryId": "1",
         "categoryId": "5",
-        "detail": "<span style=\'color:rgb(228,57,60);backgroundcolor:rgb(2255,255,255);font-size:16px;\'>內耳罩直徑：54 公釐 x 65公釐，連線類型：類比式 3.5 mm，耳機線長度：1.3 公尺 / 4.27 英呎，約略重量：322 公克 / 0.71 磅，橢圓形耳墊：為注入冷卻凝膠的全耳覆蓋式設計，適合長時間舒適配戴<span>",
+        "detail": "<span style='color:rgb(228,57,60);backgroundcolor:rgb(2255,255,255);font-size:16px;'>內耳罩直徑：54 公釐 x 65公釐，連線類型：類比式 3.5 mm，耳機線長度：1.3 公尺 / 4.27 英呎，約略重量：322 公克 / 0.71 磅，橢圓形耳墊：為注入冷卻凝膠的全耳覆蓋式設計，適合長時間舒適配戴<span>",
         "_v": 0,
     }
 ];

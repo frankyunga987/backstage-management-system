@@ -27,7 +27,7 @@ class Header extends Component {
             if (item.key === path) {
                 title = item.title
             } else if (item.children) {
-                const cItem = item.children.find(cItem => cItem.key === path)
+                const cItem = item.children.find(cItem => path.indexOf(cItem.key) === 0)
                 if (cItem) {
                     title = cItem.title
                 }
@@ -85,6 +85,7 @@ class Header extends Component {
                         <span>{title}</span>
                     </div>
                     <div className="header-bottom-right">
+                        <span>實現氣象api功能,實時更新數據:</span>
                         <span>{time}</span>
                         <span>{location}</span>
                         <img src="" alt="weather"></img>

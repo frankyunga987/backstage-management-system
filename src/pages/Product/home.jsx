@@ -6,11 +6,11 @@ import { SearchOutlined } from '@ant-design/icons';
 
 
 
+
 export default class ProductHome extends Component {
     state = {
         dataSource: dataSource,
         products: [],
-        _id: '',
         searchText: '',
         searchedColumn: '',
     }
@@ -93,7 +93,7 @@ export default class ProductHome extends Component {
                 title: '狀態',
                 dataIndex: 'status',
                 render: (status) => {
-                    
+
                     return (
                         <span>
                             <Button type={'primary'}>{status === 1 ? '下架' : '上架'}</Button>
@@ -108,7 +108,7 @@ export default class ProductHome extends Component {
                 title: '操作',
                 render: (product) => (
                     <Space size="middle">
-                        <button>修改</button>
+                        <button onClick={() => this.props.history.push('/product/addupdate', product)}>修改</button>
                         <button onClick={() => this.props.history.push('/product/detail', { product })} >詳情</button>
                     </Space>
                 ),
@@ -116,7 +116,7 @@ export default class ProductHome extends Component {
         ];
     }
 
-    
+
 
     getCategorys = () => {
 
@@ -126,19 +126,22 @@ export default class ProductHome extends Component {
     UNSAFE_componentWillMount() {
         this.getColumns()
         this.getCategorys()
+        
     }
 
     render() {
-        const { products, _id } = this.state
+        const { products } = this.state
 
         const title = (
             <span>
                 按下 下方的 <SearchOutlined /> 符號可對表格內容進行搜索
+                <br/>
+                添加及修改功能沒有完整實現,但仍能在控制台看到提交資料時所獲得的值
             </span>
         )
 
         const extra = (
-            <Button type='primary'>
+            <Button type='primary' onClick={() => this.props.history.push('/product/addupdate')}>
                 +添加商品
             </Button>
         )
@@ -147,7 +150,7 @@ export default class ProductHome extends Component {
             <Card title={title} extra={extra}>
                 <Table
                     bordered
-                    rowKey={_id}
+                    rowKey='_id'
                     dataSource={products}
                     columns={this.columns}
                     pagination={{ defaultPageSize: 5, showQuickJumper: true }}
